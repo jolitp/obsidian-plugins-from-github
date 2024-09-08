@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "obsidian-plugins-from-github"
+version = "0.1.0"
+description = "Gets a list of obsidian plugins from GitHub."
+authors = ["João Luís <jolitp@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
