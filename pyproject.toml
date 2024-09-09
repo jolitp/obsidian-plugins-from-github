@@ -7,6 +7,11 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+markdown = "^3.7"
+beautifulsoup4 = "^4.12.3"
+rich = "^13.8.0"
+urllib3 = "^2.2.2"
+python-dotenv = "^1.0.1"
 
 
 [tool.poetry.group.dev.dependencies]
@@ -39,3 +44,4 @@ docs = "mkdocs serve"
 pre_test = "task lint"
 test = "pytest -s -x --cov=obsidian_plugins_from_github -vv"
 post_test = "coverage html"
+run = "poetry run python main.py"
